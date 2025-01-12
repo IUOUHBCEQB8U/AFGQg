@@ -2132,9 +2132,27 @@
     },
     "done": true
   },
+  "mofus_better_end_:endermite_soldier_tail_fragment_advancement": {
+    "criteria": {
+      "endermite_soldier_tail_fragment_advancement_0": "2025-01-12 13:36:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin_directly": "2025-01-12 13:29:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
       "has_basalt": "2025-01-12 13:27:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-12 13:32:35 +0000"
     },
     "done": true
   },
