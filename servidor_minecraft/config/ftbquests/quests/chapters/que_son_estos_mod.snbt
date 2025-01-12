@@ -1,0 +1,503 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "que_son_estos_mod"
+	group: "70575C016B22EAF2"
+	id: "47693D78F7980E06"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "mofus_better_end_:luminion_core_item"
+			id: "6D452E8EDF140B07"
+			rewards: [{
+				id: "1FA0A3A37D0A3D4E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Este mod añade dos nuevos materiales llamados titanio y titanio reforzado."
+			tasks: [{
+				id: "6272EE60121A6B78"
+				type: "checkmark"
+			}]
+			title: "Mod de asteroides"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "256DA4D810A857AD"
+			rewards: [{
+				id: "3823396E4F596F67"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Armadura, cofre con mas espacio."
+			tasks: [
+				{
+					id: "3F582C6357D847FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "26766FFA3EF9CA0D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mofus_better_end_:titanium_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00D806D68B66F958"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mofus_better_end_:titanium_chest"
+					}
+					type: "item"
+				}
+			]
+			title: "Crafteos"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: "mofus_better_end_:titanium_ingot"
+			id: "31A5F58B8CFF85DF"
+			rewards: [
+				{
+					id: "2C8393A4F6287FFE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "186EF63BE9506C71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mofus_better_end_:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "3AD9A7227C0611EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Este es un material que se consigue mediantelos asteroides que caen."
+			tasks: [{
+				id: "1CDB186EFA3229C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mofus_better_end_:titanium_ingot"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "1C15335A8A726E7D"
+			rewards: [
+				{
+					id: "3A9FCC5F266F485E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "4B7CEF69CB570A37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mofus_better_end_:reinforced_titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ttitanio reforzado se consigue con 4 de titanio y 4 diamantes."
+			tasks: [{
+				id: "17C5965E86D81797"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mofus_better_end_:reinforced_titanium_ingot"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:the_incinerator"
+			}
+			id: "6EAEF4CB31E3EFC6"
+			subtitle: "El cataclism contiene tres materiales nuevos y diversos boses"
+			title: "El cataclism"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "1A24AC616C1B351E"
+			rewards: [
+				{
+					id: "7A090015BCA44F4E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5EB8492536600EF9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "62A90AD9D5DA772E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0B33271D4A3AC1E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "648CD241C7FE60BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6B190B7991671AB4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C4C2F31D817B22F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E0A22803F675BF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "106A903376F7661E"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "750C4BE9FB71D8BE"
+			tasks: [{
+				id: "29A67D6BFF8A594B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ancient_metal_ingot"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "18BA9B15B7EFD966"
+			tasks: [
+				{
+					id: "3C17C542B8ABCDFB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FA51B5904490FFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D0E470DEE218AE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BAEBD5A00DC4D07"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10114DB7FB109F4D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de ignito"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "67A320662D3677A9"
+			rewards: [
+				{
+					id: "46A07C0A6326710E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "graveyard:upper_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "3526E354FF27B34A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "graveyard:middle_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "361F1D38F7A78567"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "graveyard:lower_bone_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "52635CE1B7082FD2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "graveyard:vial_of_blood"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "No es facil de matar pero si lo quieres imvocar a su tumba tienes que ir a parar para colocar todas las partes de su cuerpo y por ultimo un donativo de sangre enfrascada para levantarlo de su sueño."
+			tasks: [{
+				id: "283DAC89512FE103"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "graveyard:dark_iron_ingot"
+				}
+				type: "item"
+			}]
+			title: "Mata al boss del The Graveyard"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Que son estos mods ?¿?¿?"
+}
